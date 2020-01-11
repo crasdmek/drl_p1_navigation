@@ -1,0 +1,47 @@
+Project Overview
+
+For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.
+
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
+
+The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
+
+    0 - move forward.
+    1 - move backward.
+    2 - turn left.
+    3 - turn right.
+
+The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
+Evaluation
+
+Your project will be reviewed by a Udacity reviewer against the project rubric. Review this rubric thoroughly, and self-evaluate your project before submission. All criteria found in the rubric must meet specifications for you to pass.
+Project Submission
+
+--
+
+We suggest that you submit a Github repository, but if you have trouble with that submission or want to submit a zip file instead, continue with the following instructions:
+
+When you are ready to submit your project, collect the following files and compress them into a single zip archive for upload:
+
+    The Navigation.ipynb file with fully functional code, all code cells executed and displaying output, and all questions answered. You can also download this via your workspace by clicking download as..
+    A README.md markdown file with a description of your code, much like this one.
+    An HTML or PDF export of the project report with the name Report.html or Report.pdf.
+    A file with the saved model weights of the successful agent, can be named something like model.pt.
+    Any additional images used for the project that were not supplied to you for the project. Please do not include the large banana, project data sets that you may download to work with. These files will make your project too large to submit.
+
+Again, alternatively, your submission could consist of the GitHub link to your repository.
+Project Submission Checklist
+
+Before submitting your project, please review and confirm the following items.
+
+I am confident all rubric items have been met and my project will pass as submitted. (If not, I will discuss with my mentor prior to submitting.)
+
+Project builds correctly without errors and runs.
+
+All required functionality exists and my project behaves as expected per the project's specifications.
+
+Once you have checked all these items, you are ready to submit!
+Ready to submit your project?
+
+Click on the "Submit Project" button and follow the instructions to submit!
+
