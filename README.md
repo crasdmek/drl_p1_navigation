@@ -23,3 +23,8 @@ The README has instructions for installing dependencies or downloading needed fi
 Instructions
 
 The README describes how to run the code in the repository, to train the agent. For additional resources on creating READMEs or using Markdown, see here and here.
+
+
+Ideas for Future Work
+
+The submission has concrete future ideas for improving the agent's performance.
