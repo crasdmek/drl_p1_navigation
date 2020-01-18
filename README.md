@@ -1,7 +1,7 @@
 # drl_p1_navigation
 Deep Reinforcement Learning Nanodegree (Project 1 - Navigation)
 
-Files included in this project with description:
+# Files included in this project with description:
 
 1. checkpoint.pth - trained model weights
 2. dqn_agent.py - python file that includes the dqn agent
@@ -12,19 +12,41 @@ Files included in this project with description:
 7. Navigation-Solution.ipynb - jupyter python file containing navigation solution for this project
 
 
-Project Details
+# Project Overview
 
-The README describes the the project environment details (i.e., the state and action spaces, and when the environment is considered solved).
+For this project, you will train an agent to navigate (and collect bananas!) in a large, square world.
 
-Getting Started
+A reward of +1 is provided for collecting a yellow banana, and a reward of -1 is provided for collecting a blue banana. Thus, the goal of your agent is to collect as many yellow bananas as possible while avoiding blue bananas.
 
-The README has instructions for installing dependencies or downloading needed files.
+The state space has 37 dimensions and contains the agent's velocity, along with ray-based perception of objects around the agent's forward direction. Given this information, the agent has to learn how to best select actions. Four discrete actions are available, corresponding to:
 
-Instructions
+    0 - move forward.
+    1 - move backward.
+    2 - turn left.
+    3 - turn right.
 
-The README describes how to run the code in the repository, to train the agent. For additional resources on creating READMEs or using Markdown, see here and here.
+The task is episodic, and in order to solve the environment, your agent must get an average score of +13 over 100 consecutive episodes.
 
 
-Ideas for Future Work
 
-The submission has concrete future ideas for improving the agent's performance.
+# Dependencies
+
+Unity ML-Agents https://github.com/Unity-Technologies/ml-agents/blob/master/docs/Installation.md
+
+NumPy http://www.numpy.org/
+
+Open AI Gym https://github.com/openai/gym
+
+PyTorch https://pytorch.org/get-started/locally/
+
+
+
+# Instructions
+
+All of the code is provided in the Navigation-Solution.ipynb along with documentation and step by step how to run the code (training and testing).
+
+
+
+# Ideas for Future Work
+
+The current agent has good robust performance, allowing the agent to train longer has shown the ability to surpass an average score of 15 over 100 episodes but was not necessary for this project.
